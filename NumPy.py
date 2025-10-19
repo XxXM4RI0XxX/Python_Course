@@ -1,0 +1,3 @@
+#Probando Numpy
+import numpy
+
