@@ -2,7 +2,7 @@
 
 import pandas as pd
 
-example = pd.read_excel("example1.xlsx")
+example = pd.read_excel("Example1.xlsx")
 
 print(example.head)
 # Returns all dataframe data
@@ -28,3 +28,4 @@ print("Total elements in dataA: ",dataA.shape,"\n")
 # .isin() condition; compare rows conditions to returns all true elements
 client_group = example[example["Grupo de clientes"].isin(['B','D'])]
 print("Only B and D groups",client_group)
+ 
