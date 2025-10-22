@@ -1,3 +1,2 @@
 #Probando Numpy
 import numpy
-
