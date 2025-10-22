@@ -1,2 +1,0 @@
-#Probando Numpy
-import numpy
