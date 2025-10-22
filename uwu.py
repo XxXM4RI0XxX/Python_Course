@@ -16,6 +16,8 @@ cali1 = 0
 cal2 = 1
 res = cali1 + cal2
 
+# Por defecto, depues de cada print, el interprete aplica un salto de linea :o
+
 if res >= 70:
     print("Pasao :D")
 else:
@@ -36,10 +38,12 @@ print(lista)
 
 tupla = (1,"ola") #Este valor no se puede modificar de ninguna manera :o
 
+# Tienda simple de articulos
 list_1 = []
 size = 0
+
 while True:
-    print("-------------------------\n\n")
+    print("-------------------------\n")
 
     print("1) Agregar articulos\n2) Ticket\n3) Salir")
 
